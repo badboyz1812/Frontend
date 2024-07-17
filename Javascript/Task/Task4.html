@@ -1,0 +1,8 @@
+<h1 id="text"></h1>
+<button onclick ="change(event)">HEY</button> <button onclick ="change(event)">HELLO</button> <button onclick ="change(event)">HI</button>
+<script>
+    var text1 = document.getElementById("text")
+    function change(event){
+        text1.textContent = event.target.textContent
+    }
+</script>
