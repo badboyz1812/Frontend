@@ -1,0 +1,11 @@
+<input id ="inputbox" onkeyup="change()"></input>
+<h1 id ="result">Output</h1>
+
+<script>
+    var text1 = document.getElementById("inputbox")
+    var out = document.getElementById("result")
+    function change(){
+        var box = text1.value
+        out.textContent = box
+    }
+</script>
